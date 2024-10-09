@@ -3,15 +3,15 @@
     "home": [
       {
         "id": 1,
-        "url": "/home.md"
+        "url": "home.md"
       }
     ],
     "about": [
       {
         "id": 1,
-        "url": "/about.md"
+        "url": "about.md"
       }
     ]
   },
-  "main_url": ""
+  "main_url": "https://raw.githubusercontent.com/amaali7/markdown_files/refs/heads/main/"
 }
