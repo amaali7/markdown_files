@@ -1,37 +1,30 @@
 {
-  "sections": {
-    "names": ["home", "rust", "nix", "about"],
-    "home": {
-      "name": "Home",
-      "index": {
-        "name": "home",
-        "url": "home.md",
-        "level": 0
-      }
-    },
-    "about": {
-      "name": "About",
-      "index": {
-        "name": "about",
-        "url": "about.md",
-        "level": 0
-      }
-    },
-    "rust": {
-      "name": "Rust",
-      "index": {
-        "name": "rust",
-        "url": "rust.md",
-        "level": 0
-      }
-    },
-    "nix": {
-      "name": "Nix",
-      "index": {
-        "name": "nix",
-        "url": "nix.md",
-        "level": 0
-      }
+  "home": {
+    "index": {
+      "name": "home",
+      "url": "home.md",
+      "level": 0
+    }
+  },
+  "about": {
+    "index": {
+      "name": "about",
+      "url": "about.md",
+      "level": 0
+    }
+  },
+  "rust": {
+    "index": {
+      "name": "rust",
+      "url": "rust.md",
+      "level": 0
+    }
+  },
+  "nix": {
+    "index": {
+      "name": "nix",
+      "url": "nix.md",
+      "level": 0
     }
   }
 }
