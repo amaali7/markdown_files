@@ -32,7 +32,7 @@ fn main() {
 
 ### Nix code
 
-```nix
+```
 {
   lib,
   stdenv,
