@@ -31,10 +31,8 @@ fn main() {
 
 
 ### Nix code
----
-formatters:
-    nix: nixpkgs-fmt
----
+
+
 ```nix
 {
   lib,
