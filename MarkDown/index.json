@@ -1,29 +1,55 @@
 {
-  "name": "MarkDown",
-  "files": [
-    "markdown_list.json",
-    "index.json"
-  ],
-  "subdirectories": {
-    "pages": {
-      "name": "pages",
-      "files": [],
-      "subdirectories": {
-        "about": {
-          "name": "about",
-          "files": [
-            "about.md"
-          ],
-          "subdirectories": {}
-        },
-        "home": {
-          "name": "home",
-          "files": [
-            "home.md"
-          ],
-          "subdirectories": {}
-        }
+  "root": {
+    "name": "Website Content",
+    "path": "/",
+    "type": "directory",
+    "children": [
+      {
+        "name": "Pages",
+        "path": "/pages",
+        "type": "directory",
+        "children": [
+          {
+            "name": "Home",
+            "path": "/pages/home",
+            "type": "directory",
+            "children": [
+              {
+                "name": "Home",
+                "path": "/pages/home",
+                "type": "page",
+                "file": "home.md",
+                "date": "2023-06-26 14:30"
+              },
+              {
+                "name": "Do",
+                "path": "/pages/home/do",
+                "type": "page",
+                "file": "do.md"
+              }
+            ]
+          },
+          {
+            "name": "About",
+            "path": "/pages/about",
+            "type": "directory",
+            "children": [
+              {
+                "name": "About",
+                "path": "/pages/about",
+                "type": "page",
+                "file": "about.md"
+              }
+            ]
+          }
+        ]
       }
-    }
+    ]
+  },
+  "config": {
+    "default_page": "/home",
+    "markdown_dir": "MarkDown",
+    "build_dir": "public",
+    "nav_include_hidden": false
   }
 }

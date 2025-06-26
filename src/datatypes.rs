@@ -1,5 +1,4 @@
 use serde::{Deserialize, Serialize};
-use std::collections::HashMap;
 
 #[derive(Debug, Deserialize, Serialize)]
 pub struct Config {
@@ -16,10 +15,36 @@ pub struct ScanConfig {
     pub exclude_extensions: Option<Vec<String>>,
 }
 
-#[derive(Debug, Serialize)]
-pub struct DirectoryNode {
+#[derive(Debug, Serialize, Deserialize)]
+pub struct Node {
     pub name: String,
-    // path: String,
-    pub files: Vec<String>,
-    pub subdirectories: HashMap<String, DirectoryNode>,
+    pub path: String,
+    #[serde(rename = "type")]
+    pub node_type: String,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub file: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub nav_order: Option<u32>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub nav_title: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub date: Option<String>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub hidden: Option<bool>,
+    #[serde(skip_serializing_if = "Option::is_none")]
+    pub children: Option<Vec<Node>>,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+pub struct WebConfig {
+    pub default_page: String,
+    pub markdown_dir: String,
+    pub build_dir: String,
+    pub nav_include_hidden: bool,
+}
+
+#[derive(Debug, Serialize, Deserialize)]
+pub struct Output {
+    pub root: Node,
+    pub config: WebConfig,
 }

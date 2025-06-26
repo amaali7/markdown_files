@@ -2,7 +2,7 @@ mod datatypes;
 mod deserilize_js;
 mod serilize_js;
 use datatypes::{Config, ScanConfig};
-use serilize_js::scan_directory;
+use serilize_js::generate_json_output;
 use std::{fs, path::Path};
 use toml;
 
@@ -36,15 +36,9 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     }
 
     let root_path = Path::new(&config.scan.root_dir);
-    let dir_tree = scan_directory(
-        root_path,
-        0,
-        config.scan.max_depth.unwrap_or(usize::MAX),
-        &config.scan,
-    )?;
-
+    let output = generate_json_output(&root_path.to_str().unwrap());
     // Convert the directory tree to JSON and write to file
-    let json_output = serde_json::to_string_pretty(&dir_tree)?;
+    let json_output = serde_json::to_string_pretty(&output)?;
     fs::write(config.scan.json_index, json_output)?;
 
     println!("Directory structure successfully written to index.json");

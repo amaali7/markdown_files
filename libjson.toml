@@ -1,6 +1,6 @@
 [scan]
-root_dir = "./MarkDown"
-json_index = "./MarkDown/index.json"
+root_dir = "MarkDown"
+json_index = "MarkDown/index.json"
 include_hidden = false
 max_depth = 3
 exclude_dirs = ["target", "node_modules"]
