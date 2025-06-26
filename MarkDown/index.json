@@ -1,0 +1,29 @@
+{
+  "name": "MarkDown",
+  "files": [
+    "markdown_list.json",
+    "index.json"
+  ],
+  "subdirectories": {
+    "pages": {
+      "name": "pages",
+      "files": [],
+      "subdirectories": {
+        "about": {
+          "name": "about",
+          "files": [
+            "about.md"
+          ],
+          "subdirectories": {}
+        },
+        "home": {
+          "name": "home",
+          "files": [
+            "home.md"
+          ],
+          "subdirectories": {}
+        }
+      }
+    }
+  }
+}

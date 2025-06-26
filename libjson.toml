@@ -1,0 +1,7 @@
+[scan]
+root_dir = "./MarkDown"
+json_index = "./MarkDown/index.json"
+include_hidden = false
+max_depth = 3
+exclude_dirs = ["target", "node_modules"]
+exclude_extensions = ["tmp", "bak"]

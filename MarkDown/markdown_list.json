@@ -1,0 +1,30 @@
+{
+  "home": {
+    "index": {
+      "name": "home",
+      "url": "home.md",
+      "level": 0
+    }
+  },
+  "about": {
+    "index": {
+      "name": "about",
+      "url": "about.md",
+      "level": 0
+    }
+  },
+  "rust": {
+    "index": {
+      "name": "rust",
+      "url": "rust.md",
+      "level": 0
+    }
+  },
+  "nix": {
+    "index": {
+      "name": "nix",
+      "url": "nix.md",
+      "level": 0
+    }
+  }
+}
