@@ -150,7 +150,7 @@ pub fn generate_json_output(markdown_dir: &str) -> Output {
     };
 
     let config = WebConfig {
-        default_page: "/home".to_string(),
+        default_page: "/pages/home".to_string(),
         markdown_dir: markdown_dir.to_string(),
         build_dir: "public".to_string(),
         nav_include_hidden: false,

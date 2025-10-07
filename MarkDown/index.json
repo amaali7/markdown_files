@@ -10,6 +10,19 @@
         "type": "directory",
         "children": [
           {
+            "name": "About",
+            "path": "/pages/about",
+            "type": "directory",
+            "children": [
+              {
+                "name": "About",
+                "path": "/pages/about",
+                "type": "page",
+                "file": "about.md"
+              }
+            ]
+          },
+          {
             "name": "Home",
             "path": "/pages/home",
             "type": "directory",
@@ -28,26 +41,13 @@
                 "file": "do.md"
               }
             ]
-          },
-          {
-            "name": "About",
-            "path": "/pages/about",
-            "type": "directory",
-            "children": [
-              {
-                "name": "About",
-                "path": "/pages/about",
-                "type": "page",
-                "file": "about.md"
-              }
-            ]
           }
         ]
       }
     ]
   },
   "config": {
-    "default_page": "/home",
+    "default_page": "/pages/home",
     "markdown_dir": "MarkDown",
     "build_dir": "public",
     "nav_include_hidden": false
