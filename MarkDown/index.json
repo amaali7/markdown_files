@@ -1,8 +1,8 @@
 {
   "root": {
-    "name": "Website Content",
+    "name": "Blogy",
     "path": "/",
-    "type": "directory",
+    "type": "root",
     "children": [
       {
         "name": "Pages",
@@ -18,7 +18,8 @@
                 "name": "About",
                 "path": "/pages/about",
                 "type": "page",
-                "file": "about.md"
+                "file": "about.md",
+                "date": "2023-06-26 14:30"
               }
             ]
           },
