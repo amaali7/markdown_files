@@ -140,7 +140,7 @@ pub fn generate_json_output(markdown_dir: &str) -> Output {
     let root_node = Node {
         name: "Blogy".to_string(),
         path: "/".to_string(),
-        node_type: "root".to_string(),
+        node_type: "directory".to_string(),
         file: None,
         nav_order: None,
         nav_title: None,

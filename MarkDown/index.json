@@ -2,7 +2,7 @@
   "root": {
     "name": "Blogy",
     "path": "/",
-    "type": "root",
+    "type": "directory",
     "children": [
       {
         "name": "Pages",
