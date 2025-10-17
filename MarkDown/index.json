@@ -44,6 +44,88 @@
             ]
           }
         ]
+      },
+      {
+        "name": "Access",
+        "path": "/access",
+        "type": "directory",
+        "children": [
+          {
+            "name": "Root",
+            "path": "/access/root",
+            "type": "directory",
+            "children": [
+              {
+                "name": "Root",
+                "path": "/access/root",
+                "type": "page",
+                "file": "root.md",
+                "date": "2023-06-26 14:30"
+              },
+              {
+                "name": "Super",
+                "path": "/access/root/super",
+                "type": "page",
+                "file": "super.md"
+              }
+            ]
+          },
+          {
+            "name": "User",
+            "path": "/access/user",
+            "type": "directory",
+            "children": [
+              {
+                "name": "User",
+                "path": "/access/user",
+                "type": "page",
+                "file": "user.md",
+                "date": "2023-06-26 14:30"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Docs",
+        "path": "/docs",
+        "type": "directory",
+        "children": [
+          {
+            "name": "Local",
+            "path": "/docs/local",
+            "type": "directory",
+            "children": [
+              {
+                "name": "Local",
+                "path": "/docs/local",
+                "type": "page",
+                "file": "local.md",
+                "date": "2023-06-26 14:30"
+              }
+            ]
+          },
+          {
+            "name": "Remote",
+            "path": "/docs/remote",
+            "type": "directory",
+            "children": [
+              {
+                "name": "Remote",
+                "path": "/docs/remote",
+                "type": "page",
+                "file": "remote.md",
+                "date": "2023-06-26 14:30"
+              },
+              {
+                "name": "Restrected",
+                "path": "/docs/remote/restrected",
+                "type": "page",
+                "file": "restrected.md"
+              }
+            ]
+          }
+        ]
       }
     ]
   },
