@@ -4,7 +4,7 @@
 ## Main
 
 Hi
-![Alt text](image.jpg "Optional Title")
+![Alt text](image.png "Optional Title")
 
 ### Rust code
 
