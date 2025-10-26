@@ -7,7 +7,10 @@
 Hi
 ![Alt text](image.png "Optional Title")
 
-### Rust code
+### Rust code h3
+#### Rust code h4
+##### Rust code h5
+###### Rust code h6
 
 ```rust
 #![allow(non_snake_case)]
