@@ -42,6 +42,25 @@
                 "file": "do.md"
               }
             ]
+          },
+          {
+            "name": "Rust",
+            "path": "/pages/rust",
+            "type": "directory",
+            "children": [
+              {
+                "name": "Rust",
+                "path": "/pages/rust",
+                "type": "page",
+                "file": "rust.md"
+              },
+              {
+                "name": "Axum",
+                "path": "/pages/rust/axum",
+                "type": "page",
+                "file": "axum.md"
+              }
+            ]
           }
         ]
       },
