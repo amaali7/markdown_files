@@ -1,4 +1,3 @@
-```markdown
 # Onion Architecture in Rust with Axum
 
 ## Architecture Overview
