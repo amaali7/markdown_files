@@ -37,7 +37,7 @@
               },
               {
                 "name": "Do",
-                "path": "//pages/home",
+                "path": "/pages/home",
                 "type": "page",
                 "file": "do.md"
               }
@@ -56,7 +56,7 @@
               },
               {
                 "name": "Axum",
-                "path": "//pages/rust",
+                "path": "/pages/rust",
                 "type": "page",
                 "file": "axum.md"
               }
@@ -83,7 +83,7 @@
               },
               {
                 "name": "Super",
-                "path": "//access/root",
+                "path": "/access/root",
                 "type": "page",
                 "file": "super.md"
               }
@@ -138,7 +138,7 @@
               },
               {
                 "name": "Restrected",
-                "path": "//docs/remote",
+                "path": "/docs/remote",
                 "type": "page",
                 "file": "restrected.md"
               }
