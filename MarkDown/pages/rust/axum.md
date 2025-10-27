@@ -95,4 +95,3 @@ Middleware wraps outermost service, leaving Domain unaffected.
 ## One-Line Summary
 
 **Onion + Rust crates = compiler-drawn boundary lines; Axum lives on the outer peel, never squeezing its types into the juicy interior.**
-```
