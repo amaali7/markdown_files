@@ -99,7 +99,7 @@ fn scan_directory(dir: &Path, base_path: &str) -> Option<Vec<Node>> {
             let node_path = if base_path.is_empty() {
                 format!("/{}", file_stem)
             } else {
-                format!("{}/{}", base_path, file_stem)
+                format!("/{}", base_path) //, file_stem)
             };
 
             let content = fs::read_to_string(&path).ok()?;
